@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html class="ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html class="ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html class="ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--><html lang="en"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+	<title>SR STSD 2023 - CONTEST</title>
+
+	<!-- Standard Favicon -->
+	<link rel="icon" type="image/x-icon" href="../images/favicon.svg"/>
+	
+	<!-- Library - Google Font Familys -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@700&display=swap" rel="stylesheet">
+	<!-- Custom - Common CSS -->
+    <meta name="robots" content="noindex">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" media="all" href="{stylesheet='enewsletterarchive/enewsletter_archive_css'}">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">	
+</head>
+
+<style>
+body {
+    font-family: 'Lato', 'sans-serif';
+}
+
+li {
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+    color: #2C3895;
+	font-weight: bold;
+}
+a:hover {
+    color: #2CFDFE;
+    text-decoration: none;
+}
+.navbar {
+    margin: auto;
+    justify-content: space-around;
+}
+h2 {
+	font-family: 'Rajdhani', sans-serif;
+	color:#000;
+	margin-top: 50px;
+}
+
+h3,
+.navbar-heading {
+    font-family: 'Rajdhani', sans-serif;
+} 
+
+.navbar-heading {
+	color: #2CFDFE;
+	display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5em;
+}
+
+.btn1,
+.btn2,
+.btn3 {
+    font-size: 1.3em;
+    padding: 10px;
+    margin: 10px auto;
+    display: flex;
+    font-weight: 900;
+    align-items: center;
+    justify-content: center;
+	border-radius: 50px;
+}
+.btn1 {
+    background-color: #2C3895;
+    color: #FFF;
+}
+.btn1:hover {
+    background-color: #2CFDFE;
+    color: #2C3895;
+}
+.btn2 {
+    background-color: #F71212;
+    color: #FFF;
+}
+.btn2:hover {
+    background-color: #C30101;
+    color: #FFF;
+}
+.btn3 {
+    background-color: #F79B12;
+    color: #000;
+}
+.btn3:hover {
+    background-color: #E18A08;
+    color: #000;
+}
+.btn4 {
+    font-size: 1.3em;
+    padding: 10px;
+    margin: 5px auto;
+    display: inline;
+    font-weight: 900;
+    align-items: center;
+    justify-content: center;
+    background-color: #05112A;
+    color: #FFF;
+}
+
+img {
+    vertical-align: -2px;
+}
+
+.footerText {
+    color: white;
+    font-weight: 900;
+    font-size: 1.2em;
+}
+footer {
+    background-color: #05112A;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    position: sticky;
+    position: sticky;
+}
+
+.submit {
+	font-size: 16px;
+	padding: 5px;
+	margin: 10px auto;
+	float:left;
+	width: 20%;
+	display: block;
+	border-radius: 5px;
+	font-weight: 900;
+	align-items: center;
+	justify-content: center;
+	background-color: #FF007C;
+	color: #FFF;
+	border-radius: 50px;
+}
+.submit:hover {
+	background-color: #dc006a;
+	color: #FFF;
+}
+
+.contact-form .form-group .submit {
+	font-size: 16px;
+	padding: 5px;
+	margin: 10px auto;
+	float:left;
+	width: 20%;
+	display: block;
+	border-radius: 5px;
+	font-weight: 900;
+	align-items: center;
+	justify-content: center;
+	background-color: #FF007C;
+	color: #FFF;
+	border-radius: 50px;
+    border:none;
+}
+.contact-form .form-group .submit:hover {
+	background-color: #dc006a;
+	color: #FFF;
+}
+</style>
+
+<body data-offset="200" data-spy="scroll" data-target=".ownavigation">
+	<!-- Header Section -->
+	<header class="container-fluid px-auto mx-auto header_s header-fix header_s7" style="background-color: #05112A;">
+		<!-- Container -->
+		<div class="container">	
+			<!-- Menu Block -->
+			<div class="px-auto mx-auto menu-block" style="border-top: none">
+				<nav class="navbar ownavigation navbar-expand-lg">
+					<div class="d-flex flex-wrap col-md-10" style="text-align: center; margin:auto;justify-content: space-between; ">
+						<a class="navbar-brand" href="https://snoriderswest.com/" title="Logo"><img src="assets/logo_icon.svg"></a>
+						<h2 class="text-uppercase navbar-heading" style="margin-top:0">2023 SledTown ShowDown</h2>
+					</div>					
+				</nav>	
+			</div><!-- Menu Block /- -->
+		</div><!-- Container /- -->
+    </header><!-- Header Section /- -->
+
+	<div class="main-container">	
+		<main class="site-main">
+			<!-- Page Content -->
+			<div class="container">
+				<!-- Ads -->
+				<div class="ads text-center mx-auto mt-4">
+					<img src="assets/billboard.png" style="width:100%">
+				</div>
+				<!-- Main image -->
+				<div class="text-center mx-auto mt-4">
+					<img src="assets/sr-stsd-2023-contest.svg" style="width:100%">
+				</div>
+				<!-- Main Content -->
+				<div class="row mx-auto justify-content-center d-flex mt-5">
+					<div class="col-md-8 col-12 my-3">
+						<h2 style="margin-top:0;">Vote for your favourite SledTown ShowDown and WIN</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur venenatis lorem sit amet ligula ornare facilisis. Vestibulum auctor fermentum risus, vel venenatis dui viverra eget. Donec maximus scelerisque lectus, non ultricies lorem. Morbi porta ligula ex, nec facilisis risus efficitur quis. Pellentesque quis enim egestas, vulputate purus et, venenatis elit. In vulputate mauris nulla, sit amet aliquet justo finibus vitae. Sed auctor dapibus est, dictum accumsan ipsum ultrices mollis. Suspendisse potenti. Nam ac dolor eget nibh ullamcorper dapibus eu non lectus. Morbi a velit vel erat fermentum imperdiet. Donec non imperdiet nulla. Suspendisse pellentesque aliquet gravida. Nam commodo turpis eget suscipit pulvinar. Fusce malesuada elit vel viverra consequat.</p>
+						<p>Morbi vestibulum imperdiet ultricies. Donec quis lacus urna. Etiam fermentum justo ligula, dapibus elementum diam tristique sit amet. Curabitur blandit velit lacinia finibus condimentum. Nullam auctor dictum vulputate. Donec mattis nisi nisi, sit amet maximus nisi faucibus a. Integer fringilla risus lacinia, placerat turpis sit amet, varius urna. Morbi quis odio luctus, vestibulum ex quis, consequat nisi. Pellentesque elit nulla, interdum ac accumsan et, dictum a sem. Pellentesque facilisis arcu et commodo vestibulum. Praesent sed felis ut turpis sollicitudin viverra. Ut porttitor, diam vel congue gravida, ipsum leo lacinia mi, non molestie elit ipsum at nibh. Quisque gravida sapien at fringilla aliquet.</p>
+                        <!-- Contest Submit Form -->
+                        <div class="contact-form mx-auto px-5 py-2 text-left" style="background-color: #f7f7f7;">
+                            <h2 class="mb-4">Upload your favourite SledTown image and participate to win a ….?</h2>
+                            <div class="row">
+                                <div class="form-group col-md-6">
+                                    <label for="input_name" style="font-weight: bold;">Name</label>
+                                    <input type="text" style="background-color: #FFF;" class="form-control" name="contact-name" id="input_name" required>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="input_email" style="font-weight: bold;">Email</label>
+                                    <input type="text" style="background-color: #FFF;" class="form-control" name="contact-email" id="input_email" required>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-group col-md-6">
+                                    <label for="input_city" style="font-weight: bold;">City</label>
+                                    <input type="text" style="background-color: #FFF;" class="form-control" name="contact-city" id="input_city" required>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="input_postalcode" style="font-weight: bold;">Postal code/zip code</label>
+                                    <input type="text" style="background-color: #FFF;" class="form-control" name="contact-postalcode" id="input_postalcode" required>
+                                </div>    
+                            </div>
+                            <div class="row">
+                                <div class="form-group col-md-6">
+                                    <label for="input_file" style="font-weight: bold;">Select your image</label>
+                                    <input type="file" style="background-color: #FFF;" class="form-control" name="contact-image" id="input_file" required>
+                                    <p class="mt-2">PDF, PNG, JPEG, and GIF</p>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label for="input_credit" style="font-weight: bold;">Photographer/Instagram Account</label>
+                                    <input type="text" style="background-color: #FFF;" class="form-control" name="contact-credit" id="input_credit" required>
+                                </div>    
+                            </div>
+                            <div class="row">
+                                <div class="form-group col-md-12">
+                                    <label for="input_info" style="font-weight: bold;">Where did this happen?</label>
+                                    <input type="text" style="background-color: #FFF;" class="form-control" name="contact-info" id="input_info" required>
+                                </div>
+                                <div class="form-group col-md-12">
+                                    <label for="input_text" style="font-weight: bold;">Description</label>
+                                    <p class="mt-2">Tell us about your photo: include things like the make and model of your sled, who is in the photo, and when it was taken.</p>
+                                    <input type="text" style="background-color: #FFF;" class="form-control" name="contact-text" id="input_text" required>
+                                </div>    
+                            </div>
+                            <div class="row mx-auto text-left pb-4">
+                                <div class="form-group">
+                                    <button id="btn_submit" name="submit" style="width: 100%;" class="submit py-2 px-4 my-0">Submit</button>
+                                </div>
+                            </div>
+                        </div>
+						 <!-- /Contest Submit Form -->
+                        <h2>Vote for your favourite SledTown for each province:</h2>
+						<div class="row">
+							<div class="col-md-6 mx-auto text-center"> 
+								<a class="btn btn-lg btn-block btn1" href="/stsd-alberta"><strong>Alberta</strong></a>
+								<a class="btn btn-lg btn-block btn1" href="/stsd-british-columbia"><strong>British Columbia</strong></a>  
+							</div>
+							<div class="col-md-6 mx-auto text-center"> 
+								<a class="btn btn-lg btn-block btn1" href="/stsd-saskatchewan"><strong>Saskatchewan</strong></a>
+								<a class="btn btn-lg btn-block btn1" href="/stsd-manitoba"><strong>Manitoba</strong></a>
+							</div>
+						</div>
+
+						<h2>New to the contest?</h2>
+						<p>This is how it works: we start with 16 destinations from each Western province in Canada. Each round, our readers vote for their favourites and the destinations get whittled down. By Round 4, we’ll have our provincial winners, which will go head-to-head until only one town remains to be crowned the 2023 SledTown ShowDown Champion of Western Canada. For a full account of previous SledTown ShowDowns, see our <a href="#" target="_blank">complete history of SnoRiders’ SledTown ShowDown.</a></p>
+						
+						<h2>Here’s what the winner gets:</h2>
+						<p>A shiny SledTown trophy, bragging rights and feature articles on SnoRidersWest.com. Plus, it is a chance to raise positive awareness of snowmobiling and to recognize local clubs for all their hard work.</p>
+						<p>Social media plays a big role in this contest so be sure to hit “share” after you vote to let your friends know about the contest. You can also follow SnoRiders on <a href="#" target="_blank">Facebook</a>, <a href="#" target="_blank">Instagram</a> and <a href="#" target="_blank">Twitter</a> for quick updates during the contest. Feel free to tag us in photos and use the #SledTown2023 to promote your favourite town.</p>
+						<p>If you’re on our e-Newsletter list, you’ll also get SledTown ShowDown news, plus our best snowmobiling stories, each month. Not on the list? <a href="#" target="_blank">Sign up here.</a></p>
+						<p>Thank you for participating in this year’s SledTown ShowDown by voting for your favourite snowmobiling destination.</p>
+
+						<hr class="my-5">
+						
+						<div class="promoted-ads">
+							<a href="#"><img class="mb-5" src="assets/kpl.png" style="width:100%"></a>
+							<a href="#"><img class="mb-5" src="assets/kpl.png" style="width:100%"></a>
+							<a href="#"><img class="mb-5" src="assets/kpl.png" style="width:100%"></a>
+						</div>
+					</div>
+					<div class="ads text-center mx-auto mt-4 col-12 col-md-3">
+						<img src="assets/sidekick.png">
+						<img class="mt-4" src="assets/bb.png">
+					</div>
+				</div>
+			</div>
+		</main>
+	</div>
+
+		
+	<footer class="mt-5 py-3">
+		<a href="https://snoriderswest.com/"><img class="col-6 col-md-2 mx-auto" src="assets/logo_white.svg"></a>
+	</footer>
+	
+	<!-- JQuery v1.12.4 -->
+	<script src="../js/jquery-1.12.4.min.js"></script>
+
+	<!-- Library - Js -->
+	<script src="../js/popper.min.js"></script>
+	<script src="../js/lib.js"></script>
+	
+	<!-- Library - Theme JS -->
+	<script src="../js/functions.js"></script>
+	
+</body>
+</html>
