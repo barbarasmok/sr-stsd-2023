@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="653.373" height="334.236" viewBox="0 0 653.373 334.236">
+  <g id="Group_26" data-name="Group 26" transform="translate(-198 -1941)">
+    <path id="Path_37" data-name="Path 37" d="M0,0H653.373V334.236H0Z" transform="translate(198 1941)" fill="#f7f7f7"/>
+    <g id="Group_18" data-name="Group 18" transform="translate(0 -27.19)">
+      <rect id="Rectangle_1741" data-name="Rectangle 1741" width="274" height="231" transform="translate(234 1998)" fill="#d1d1d1"/>
+      <g id="Group_17" data-name="Group 17">
+        <rect id="Rectangle_1742" data-name="Rectangle 1742" width="274" height="44" transform="translate(234 2229)" fill="#2c3895"/>
+        <text id="Town_1" data-name="Town #1" transform="translate(234 2234)" fill="#fff" font-size="22" font-family="TitilliumWeb-Bold, Titillium Web" font-weight="700"><tspan x="96.806" y="25">Town #1</tspan></text>
+      </g>
+    </g>
+    <g id="Group_19" data-name="Group 19" transform="translate(301 -27.19)">
+      <rect id="Rectangle_1741-2" data-name="Rectangle 1741" width="274" height="231" transform="translate(234 1998)" fill="#d1d1d1"/>
+      <g id="Group_17-2" data-name="Group 17">
+        <rect id="Rectangle_1742-2" data-name="Rectangle 1742" width="274" height="44" transform="translate(234 2229)" fill="#2c3895"/>
+        <text id="Town_2" data-name="Town #2" transform="translate(234 2234)" fill="#fff" font-size="22" font-family="TitilliumWeb-Bold, Titillium Web" font-weight="700"><tspan x="96.806" y="25">Town #2</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>
